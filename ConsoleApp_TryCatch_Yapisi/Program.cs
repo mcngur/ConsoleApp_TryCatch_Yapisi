@@ -52,6 +52,11 @@ namespace ConsoleApp_TryCatch_Yapisi
                 Console.WriteLine("Girdiğiniz değer çok büyük veya çok küçük");
                 Console.Write(eror3.ToString()); // hata mesajı detayları
             }
+
+            finally
+            {
+                Console.WriteLine("İşlemler tamamlandı");
+            }
             Console.ReadLine();
         }
     }
